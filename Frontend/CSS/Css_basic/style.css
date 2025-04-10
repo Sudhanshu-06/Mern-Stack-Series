@@ -1,0 +1,55 @@
+*{
+    /* This is a universal selector whatever your write here is applied to everything  */
+    background-color: #FF974C;
+}
+/* type Selector */
+/* h2{
+    font-size: larger;
+    background-color:white ;
+}
+body{
+    background-color: red;
+}
+header{
+    background-color: blue;
+} */
+/* div{
+    background-color: red;
+} */
+
+
+
+/* Class selector */
+/* .text{
+    font-weight: bolder;
+    font-size: medium;
+} */
+
+
+
+/* Id selector */
+#head-text{
+    color:brown;
+    text-decoration: underline;
+}
+
+
+/* attribute selector */
+/* button[reset]{
+    color: yellowgreen;
+} */
+
+
+
+/* Combinators */
+div span{
+    color: blue;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+}

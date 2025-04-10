@@ -1,0 +1,29 @@
+:root{
+    --StarkGrey:#4C4A59;
+    --GenevaGreen:#1B7F7A;
+    --AquariumDiver:#0897B4;
+    --BlueRacer:#4CABA6;
+    --MasalaChai:#F2CDAC;
+}
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: var(--AquariumDiver);
+}
+#intro p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+.name span{
+    display: block;
+    color: var(--MasalaChai);
+    font-size: 4rem;
+}
