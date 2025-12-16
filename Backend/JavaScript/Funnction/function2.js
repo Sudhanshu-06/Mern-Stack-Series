@@ -4,7 +4,7 @@ function isEvenOrOdd(x){
         return "Even";
     }else{
         return "Odd";
-    }
+     }
 }
 
 const ans= isEvenOrOdd(19);
