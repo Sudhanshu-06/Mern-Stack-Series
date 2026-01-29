@@ -1,16 +1,20 @@
 import React from "react";
-import './Button.css'
+import getButtonStyling from './getButtonStyling'
 
-const Button = ({ text, onClickHandler }) => {
+
+
+const Button = ({ text, onClickHandler,styleType='primary' , type="button" }) => {
   console.log(text);
   return <button
    onClick={onClickHandler}
-//    style={{'backgroundColor':'black', 'color':'white'}}
-    className="btn"
+   type = {type}
+    className={`px-4 py-2 ${getButtonStyling(styleType)} text-white`}
    >
     {text}
     
     </button>;
 };
+
+
 
 export default Button;

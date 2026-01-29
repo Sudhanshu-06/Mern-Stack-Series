@@ -19,4 +19,4 @@ console.log(x);
 
 
 delete x.name;
-console.log(x);
+console.log(x );
